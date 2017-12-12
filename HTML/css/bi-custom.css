@@ -43,21 +43,21 @@
 .navbar.bi-menu .navbar-nav > li > a:active,
 .navbar.bi-menu .navbar-nav > li > a:focus,
 .navbar.bi-menu .navbar-nav > li > a:hover {
-    color: #000000;
+    color: deepskyblue;
 }
 
 .navbar.bi-menu .navbar-nav > .active > a,
 .navbar.bi-menu .navbar-nav > .active > a:focus,
 .navbar.bi-menu .navbar-nav > .active > a:hover{
     background-color: transparent;
-    color: #000000;
+    color: deepskyblue;
 }
 
 .navbar.bi-menu > .open > a,
 .navbar.bi-menu > .open > a:focus,
 .navbar.bi-menu > .open > a:hover{
     background-color: transparent;
-    color: #000000;
+    color: deepskyblue;
 }
 
 .service-overflow,
