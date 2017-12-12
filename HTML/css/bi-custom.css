@@ -89,3 +89,51 @@
 .bi-container {
     background-color: #1b1e21;
 }
+
+.bi-form-input {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.bi-form-input > input {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #FFFFFF;
+    opacity: 1;
+    color: #040505;
+    border-radius: 12px;
+}
+
+.bi-form-input > input:focus {
+    background-color: deepskyblue;
+    color: #FFFFFF;
+}
+
+.bi-form-input > button {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: deepskyblue;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.bi-form-input > button:hover {
+    background-color: darkgreen;
+    color: #FFFFFF;
+}
+
+.bi-form-input > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bi-form-input > a:hover {
+    color: deepskyblue;
+}
+
+.bi-form-container {
+    background: #030B14;
+    opacity: 0.49;
+    padding: 10px 10px 10px 10px;
+    color: #FFFFFF;
+}
