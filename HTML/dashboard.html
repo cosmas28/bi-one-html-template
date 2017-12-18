@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cosmas web templates">
+    <meta name="keywords" content="Web Design, HTML, CSS, JavaScript">
+    <meta name="author" content="Cosmas Augustino Billa">
+    <meta charset="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cosmas - Responsive Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/bi-dashboard.css">
+</head>
+<body>
+    <div id="bi-wrapper">
+        <!-- Header starts here -->
+        <header id="bi-header">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <!-- menu-1 -->
+                    <nav class="navbar fixed-top navbar-expand-lg bi-dash-menu navbar-light ">
+                        <a class="navbar-brand bi-logo" href="index.html">CosmasDesigns</a>
+                        <button class="navbar-toggler bi-toggler" type="button" data-toggle="collapse" data-target="#sideNavbar" aria-controls="sideNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="sideNavbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active"><a class="nav-link" href="index.html">Dashboard<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="sign-in.html">Logout</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                        My account
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="profile.html">link </a>
+                                        <a class="dropdown-item" href="">link</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                    <!-- menu-1 End-->
+                </div>
+            </div>
+        </header>
+        <!-- Header ends here -->
+
+        <!-- Main content -->
+        <div class="bi-main">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="bi-title">
+                            <h3>My Items</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-md-12">
+                        <!-- Table to display items -->
+                        <div class="bi-table">
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">Id</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Quantity</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <th>Bamia</th>
+                                        <th>12</th>
+                                        <th>12/02/2017</th>
+                                        <th><a class="btn btn-danger bi-button">Delete</a><a class="btn btn-info">Update</a></th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main content Ends-->
+
+        <!-- Footer -->
+        <footer class="fixed-bottom">
+            <div class="container">
+                2017 CosmaDesigns
+            </div>
+        </footer>
+        <!-- Footer Ends-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
