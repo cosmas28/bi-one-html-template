@@ -1,0 +1,101 @@
+#bi-wrapper {
+    max-width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+    min-height: 700px;
+
+}
+#bi-page-wrapper {
+    padding: 0px;
+    min-height: 568px;
+    padding-bottom: 60px;
+}
+.bi-main {
+    padding: 30px 30px 0 30px;
+    max-width: 100%;
+    background: #FFFFFF;
+    background-attachment: inherit;
+    position: inherit;
+
+}
+#bi-container {
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#bi-header {
+    padding: 30px 30px;
+    margin: 30px;
+}
+.navbar.bi-dash-menu {
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+    min-height: 70px;
+    background-color: #00A6FF;
+    border-bottom: 0px solid #000000;
+}
+
+.navbar-brand.bi-logo {
+    font-family: "Playball",cursive;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    line-height: 40px;
+}
+
+.navbar-toggler.bi-toggler {
+    background-color: white;
+}
+
+.navbar-collapse .bi-collapse {
+    background-color: #00A6FF;
+}
+
+.navbar.bi-dash-menu .navbar-nav> li > a {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 20px !important;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.3px;
+    padding: 15px 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.bi-nav-top-links {
+    margin-right: 0;
+}
+
+.bi-nav-top-links > li {
+    display: inline-block;
+}
+
+.bi-nav-top-links > li:last-child {
+    margin-right: 15px;
+}
+
+.bi-nav-top-links > li > a {
+    padding: 15px;
+    min-height: 50px;
+}
+.bi-title {
+    border-bottom: 3px solid #00A6FF;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.bi-title h3 {
+    color: #00A6FF;
+    font-weight: 600;
+}
+
+.bi-button {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.bi-button:hover {
+    background: orangered;
+}
