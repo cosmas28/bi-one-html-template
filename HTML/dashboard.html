@@ -37,8 +37,8 @@
                                         My account
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="profile.html">link </a>
-                                        <a class="dropdown-item" href="">link</a>
+                                        <a class="dropdown-item" href="add-item.html">Add New Item </a>
+                                        <a class="dropdown-item" href="dashboard.html">My Item List</a>
                                     </div>
                                 </li>
                             </ul>
@@ -81,7 +81,22 @@
                                         <th>Bamia</th>
                                         <th>12</th>
                                         <th>12/02/2017</th>
-                                        <th><a class="btn btn-danger bi-button">Delete</a><a class="btn btn-info">Update</a></th>
+                                        <th>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-info">Action</button>
+                                                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="sr-only">toggle</span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Edit</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="#">Update</a>
+                                                    <div class="dropdown-divider"></div>
+                                                </div>
+                                            </div>
+                                        </th>
                                     </tr>
                                 </tbody>
                             </table>
