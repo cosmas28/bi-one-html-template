@@ -136,9 +136,6 @@
 .bi-form-input input::placeholder {
     color: #000000;
 }
-.bi-form-input input::placeholder {
-    color: #FFFFFF;
-}
 .bi-form-input button {
     width: 100%;
     height: 50px;
