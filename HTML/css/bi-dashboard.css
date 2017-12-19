@@ -139,6 +139,18 @@
 .bi-form-input input::placeholder {
     color: #FFFFFF;
 }
+.bi-form-input button {
+    width: 100%;
+    height: 50px;
+    background: #00A6FF;
+    border: 0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.bi-form-input button:hover {
+    background: #218838;
+}
 .bi-table {
     padding-left: 20px;
 }
