@@ -107,4 +107,38 @@
 .bi-footer h5 {
     text-align: center;
     font-weight: 400;
+    color: #FFFFFF;
+}
+.bi-form-dash {
+    padding: 0 10px 0 10px;
+}
+.bi-form-input {
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+.bi-form-input input {
+    width: 100%;
+    padding: 10px 10px;
+    border-bottom: 2px solid #00A6FF;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.bi-form-input input:focus {
+    border-bottom: 2px solid #218838;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.bi-form-input input:hover {
+    background: #00A6FF;
+}
+.bi-form-input input::placeholder {
+    color: #000000;
+}
+.bi-form-input input::placeholder {
+    color: #FFFFFF;
+}
+.bi-table {
+    padding-left: 20px;
 }
